@@ -83,9 +83,9 @@ Confusion Matrix indicates overlapping predictions between A/B and ties.
 
 ## 👨‍💻 Authors
 
-- [Kıvılcım Naz Böke]
-- [Mesude Gökpınar]
-- [Dilara Efe]
+- Kıvılcım Naz Böke
+- Mesude Gökpınar
+- Dilara Efe
 
 _CENG481 - Çankaya University | 2025_
 

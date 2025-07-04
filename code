@@ -1,9 +1,3 @@
-!pip install -q transformers datasets accelerate evaluate
-!pip install -q optuna googletrans==4.0.0-rc1
-!pip install -q torchvision
-!pip install -q seaborn matplotlib
-!pip install evaluate
-
 import pandas as pd
 from datasets import Dataset
 from transformers import DistilBertTokenizer, DistilBertForSequenceClassification, TrainingArguments, Trainer

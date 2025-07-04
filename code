@@ -14,7 +14,7 @@ import evaluate
 train = pd.read_csv('./train.csv')
 test = pd.read_csv('./test.csv')
 
-print("Sınıf Dağılımı:")
+print("Class Distribution:")
 print(train[['winner_model_a', 'winner_model_b']].sum())
 
 
@@ -159,7 +159,7 @@ print("Class Distribution:")
 print(train['label'].value_counts().rename({0: 'Model A', 1: 'Model B', 2: 'Tie'}))
 
 print("\n" + "="*50)
-print("Genel Metrikler:")
+print("General Metrics:")
 print(f"Accuracy: {accuracy:.4f}")
 print(f"Weighted Precision: {precision:.4f}")
 print(f"Weighted Recall: {recall:.4f}")
@@ -167,7 +167,7 @@ print(f"Weighted F1-Score: {f1:.4f}")
 
 print("\nClass-Based Metrics:")
 metrics_df = pd.DataFrame({
-    'Sınıf': ['Model A', 'Model B', 'Tie'],
+    'Class': ['Model A', 'Model B', 'Tie'],
     'Precision': precision_per_class,
     'Recall': recall_per_class,
     'F1-Score': f1_per_class
